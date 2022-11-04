@@ -20,3 +20,11 @@ elif option2==2:
     print('uang kamu sekarang berjumlah ',hasil2)
 else:
     print('keyboard anda salah, mohon ulangi lagi!')
+elif option==3:
+    print(uang anda berjumlah Rp.200.000, mau tabung berapa?)
+    option3=int(input('masukan jumlah uang:'))
+    hasil3=uang_kamu+option3
+    print('jumlah uang kamu sekarang adalah',hasil3)
+else:
+    print("pilihan anda salah, silahkan ulangi lagi!!!")
+    
