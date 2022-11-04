@@ -6,3 +6,17 @@ print ('3. Tabung uang')
 option=int(input('silahkan pilih option : '))
 uang_kamu=200000
 if option==1:
+     print('uang anda berjumlah Rp.200.000')
+elif option==2:
+  print('uang anda berjumlah Rp.200.000, mau ambil berapa?')
+  print('1. Rp.100.000')
+  print('2. Rp.200.000')
+  option2=int(input('option:'))
+  if option2==1:
+    hasil=uang_kamu-100000
+    print('uang kamu sekarang berjumlah ',hasil)
+elif option2==2:
+    hasil2=uang_kamu-200000
+    print('uang kamu sekarang berjumlah ',hasil2)
+else:
+    print('keyboard anda salah, mohon ulangi lagi!')
